@@ -1,0 +1,125 @@
+{
+  "requiere_login": true,
+  "tema": {
+    "colorPrimario": "#EC4899",
+    "colorSecundario": "#F59E0B",
+    "fondo": "#FFFFFF",
+    "superficie": "#FFF7ED",
+    "texto": "#1F2937"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "icono": "fa-house",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_ResumenAlumno",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra racha de días, puntos acumulados en la semana, nivel actual y botón directo para continuar la próxima lección"
+    },
+    {
+      "id": "camino",
+      "titulo": "Aprender",
+      "icono": "fa-map-location-dot",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_CaminoAprendizaje",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Presenta las unidades y lecciones en secuencia ordenada con indicadores de completado, actual o bloqueado"
+    },
+    {
+      "id": "leccion",
+      "titulo": "Lección",
+      "icono": "fa-book-open",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_VisorLeccion",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra ejercicios uno por uno de opción múltiple y completar frases, con barra de progreso, validación al instante y resumen de puntos ganados"
+    },
+    {
+      "id": "ranking",
+      "titulo": "Ranking",
+      "icono": "fa-medal",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_Leaderboard",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Ranking semanal de alumnos ordenados por puntaje, con su posición y días de racha"
+    },
+    {
+      "id": "admin",
+      "titulo": "Profesor",
+      "icono": "fa-chalkboard-user",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_GestorContenido",
+          "col_span": 12
+        },
+        {
+          "tipo": "LinguaLearn_muukb9ph__PanelRolesPermisos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Permite al profesor crear y editar unidades, lecciones y ejercicios con sus opciones y respuestas correctas"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "BASE__Configuracion",
+          "col_span": 12
+        }
+      ]
+    },
+    {
+      "id": "seguimiento",
+      "titulo": "Seguimiento",
+      "icono": "fa-chart-line",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_MetricasSeguimiento",
+          "col_span": 12
+        },
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_TablaSeguimiento",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Permite al profesor revisar el avance por unidad, porcentaje de aciertos y último día de práctica de cada estudiante"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos del sistema",
+      "icono": "fa-tags",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "LinguaLearn_muukb9ph__LL_GestorCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Permite al profesor administrar los niveles de idioma y los tipos de ejercicio para poblar los selectores"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "movil"
+}

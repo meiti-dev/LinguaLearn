@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.lingualearn_muukb9ph",
+  "appName": "LinguaLearn",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}
