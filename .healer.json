@@ -1,6 +1,14 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/LinguaLearn_muukb9ph__PanelRolesPermisos.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_ResumenAlumno.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_CaminoAprendizaje.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_VisorLeccion.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_Leaderboard.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_GestorContenido.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_MetricasSeguimiento.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_TablaSeguimiento.jsx",
+    "server/moldes/LinguaLearn_muukb9ph__LL_GestorCatalogos.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
